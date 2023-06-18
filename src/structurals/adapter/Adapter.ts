@@ -14,8 +14,8 @@ class PaymentGatwayBConcrete implements PaymentGatwayB {
 
  /* This is the adapter, it implements the interface that the client knows,
  and makes the necessary translation for the strange payment gateway, work. */
- class PaymentGatwayAdapterConcrete implements PaymentGatewayAdapter {
-    extern_payment_gateway: PaymentGatwayB;
+ class PaymentGatewayAdapterConcrete implements PaymentGatewayAdapter {
+    private extern_payment_gateway: PaymentGatwayB;
 
     constructor() {
         this.extern_payment_gateway = new PaymentGatwayBConcrete();
@@ -31,10 +31,10 @@ class PaymentGatwayBConcrete implements PaymentGatwayB {
 }
 
 // Here is a representation of the client, it knows the interface that the adapter implements.
-function Client(payment: PaymentGatwayA) {
+function Client(payment: PaymentGatwayA): void {
     payment.authorizePayment(100);
     payment.processPayment(100);
 }
 
-const payment: PaymentGatwayA = new PaymentGatwayAdapterConcrete();
+const payment: PaymentGatwayA = new PaymentGatewayAdapterConcrete();
 Client(payment);

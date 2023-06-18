@@ -18,12 +18,13 @@ We created an intermediate interface that inherites the interface known by the C
 
 ## Pros:
  
- - Follow the Sigle Resposability Principle guideline.
- - Respects the Open Closed Principle guideline.
+ ✔️ Follow the Sigle Resposability Principle guideline.
+
+ ✔️ Follow the Open Closed Principle guideline.
 
 ## Cons:
 
- - May greatly increase the code complexity.
+ ❌ May greatly increase the code complexity.
 
 
 ### **Resource:**

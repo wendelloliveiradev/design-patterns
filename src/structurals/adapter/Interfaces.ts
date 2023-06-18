@@ -10,6 +10,4 @@ export interface PaymentGatwayB {
     submitPayment(amount: number): void;
 } 
 
-export interface PaymentGatewayAdapter extends PaymentGatwayA {
-    extern_payment_gateway: PaymentGatwayB;
-}
+export interface PaymentGatewayAdapter extends PaymentGatwayA {}
