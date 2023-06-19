@@ -29,4 +29,4 @@ We created an intermediate interface that inherites the interface known by the C
 
 ### **Resource:**
 
- - [Refactoring Guru (Adapter)](https://refactoring.guru/pt-br/design-patterns/adapter)
+ 🔗 [Refactoring Guru (Adapter)](https://refactoring.guru/design-patterns/adapter)

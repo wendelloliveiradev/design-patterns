@@ -33,4 +33,4 @@ Based on the context `Character`. We created an interface that provide a contrac
 
 ### **Resource:**
 
- - [Refactoring Guru (Strategy)](https://refactoring.guru/pt-br/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
