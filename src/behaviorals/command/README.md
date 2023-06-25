@@ -1,36 +1,32 @@
-# Character Attack Command
+# Smart Home Controller Device
 
-This repository solves a problem of multiples similar action code inside a single class with strategies.
+This repository solves a problem of encapsulating action calls (operations), into objects, so they can be managed as part of the code, making easier to manipulating actions, for example, queueing operations, delay and undo/redo them.
 
 ## The Problem:
 
-"You are developing a game that involves different characters with different abilities, such as warriors, archers, and mages. Each character has a specific attack strategiy that determines how they engage in combat.
-
-The game currently has a `Character` class that represents the characters in the game, but the problem is that the attack strategy is hardcoded within the `Character` class."
+"You are building a home automation system that allows users to control various smart devices in their homes, such as lights, thermostats, and security systems. You need to implement a Command design pattern to encapsulate these commands into objects, allowing users to dynamically issue and manage commands, undo/redo commands, and schedule commands to be executed at a later time."
 
 ## The Solution:
 
-Based on the context `Character`. We created an interface that provide a contract for each type of stategies and then we encapsulated the commom algorithms inside a specific strategy, so each strategy can be changed in the runtime and switched between each type of `Character`.
+We need three main components to solve this problem with the Command design pattern, they are, the class that defines what the command do, the class that defines how the object that are going to manage the commands behave aka 'Invoker/Sender', and the endpoint layer called 'Receiver', basically is the object that will have its intern state changed by a specific command.
 
 ## Pros:
+
+ ✅ Follow the Single Responsability Principle guidelines.
+
+ ✅ Follow the Open Closed Principle guidelines.
  
- ✔️ Possibility to change the type of algorithm in runtime.
+ ✅ Possibility to delaying the execution of a action call in runtime, among other operations.
 
- ✔️ Isolates the details of an algorithm implementation.
+ ✅ Makes possible to break down complex action calls into smaller and simpler ones.
 
- ✔️ Follow the Liskov Substitution Principle guidelines.
 
- ✔️ Follow the Open Closed Principle guidelines.
 
 ## Cons:
 
- ❌ May greatly increase the code complexity for simpler implemantations.
-
- ❌ Needs good documentation for each strategy, the client must be well informed about it.
-
- ❌ In functional programming languages may be used anonymous function for a similar result with easier implementation.
+ ❌ May greatly increase the code complexity given the implemantation of a new layer of objects.
 
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Command)](https://refactoring.guru/design-patterns/command)

@@ -12,13 +12,13 @@ We want to isolate the creation of new characters and allow for futher improveme
 
 ## Pros:
  
- ✔️ Avoid coupling the Creator with the Products Code.
+ ✅ Avoid coupling the Creator with the Products Code.
 
- ✔️ Makes the code easier to grow and mantain.
+ ✅ Makes the code easier to grow and mantain.
 
- ✔️ Follow the Single Resposability Principle guidelines.
+ ✅ Follow the Single Resposability Principle guidelines.
 
- ✔️ Follow the Open Closed Principle guidelines.
+ ✅ Follow the Open Closed Principle guidelines.
 
 ## Cons:
 

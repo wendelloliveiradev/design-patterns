@@ -1,36 +1,26 @@
-# Character Attack Strategy 
+# Wheather Monitoring System 
 
-This repository solves a problem of multiples similar action code inside a single class with strategies.
+This repository solves the problem of having to notify multiples objects when a certain object state changes.
 
 ## The Problem:
 
-"You are developing a game that involves different characters with different abilities, such as warriors, archers, and mages. Each character has a specific attack strategiy that determines how they engage in combat.
-
-The game currently has a `Character` class that represents the characters in the game, but the problem is that the attack strategy is hardcoded within the `Character` class."
+"You are building a weather monitoring system that collects data from multiple weather stations and displays the weather information in real-time to users. The System needs to notify the display components whenever the weather data changes, so that they can update ther displays accordingly. You need to implement an Observer design pattern to establish a one-to-many relationship between the weather station (observable) and the display components (observers), allowing the display components to automatically receive updates from the weather stations and reflect the changes in their displays."
 
 ## The Solution:
 
-Based on the context `Character`. We created an interface that provide a contract for each type of stategies and then we encapsulated the commom algorithms inside a specific strategy, so each strategy can be changed in the runtime and switched between each type of `Character`.
+We need to implement a WeatherSubscriber interface for each subscriber so every time that the Publisher state is changed, just calling the notify method in the publisher will fire the update for each subscriber registered to receive the update, this way we can separete the layers between a Publisher and many Subscribers, also the Publisher can be a subscriber to another publisher, this way we can funnel multiple weather station data to a single publisher and then notify the "users".
 
 ## Pros:
  
- ✔️ Possibility to change the type of algorithm in runtime.
+ ✅ Follow the Open Closed Principle guidelines.
 
- ✔️ Isolates the details of an algorithm implementation.
-
- ✔️ Follow the Liskov Substitution Principle guidelines.
-
- ✔️ Follow the Open Closed Principle guidelines.
+ ✅ Allows extension and contraction to the subscriber list without breaking the code.
 
 ## Cons:
 
- ❌ May greatly increase the code complexity for simpler implemantations.
-
- ❌ Needs good documentation for each strategy, the client must be well informed about it.
-
- ❌ In functional programming languages may be used anonymous function for a similar result with easier implementation.
+ ❌ The notifications is sequential, may not feed the users in real time.
 
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Observer)](https://refactoring.guru/design-patterns/observer)

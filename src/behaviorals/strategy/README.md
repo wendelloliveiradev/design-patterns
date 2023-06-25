@@ -14,13 +14,13 @@ Based on the context `Character`. We created an interface that provide a contrac
 
 ## Pros:
  
- ✔️ Possibility to change the type of algorithm in runtime.
+ ✅ Possibility to change the type of algorithm in runtime.
 
- ✔️ Isolates the details of an algorithm implementation.
+ ✅ Isolates the details of an algorithm implementation.
 
- ✔️ Follow the Liskov Substitution Principle guidelines.
+ ✅ Follow the Liskov Substitution Principle guidelines.
 
- ✔️ Follow the Open Closed Principle guidelines.
+ ✅ Follow the Open Closed Principle guidelines.
 
 ## Cons:
 
