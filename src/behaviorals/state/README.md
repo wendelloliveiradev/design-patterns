@@ -1,6 +1,6 @@
-# Character Attack Strategy 
+# Vending Machine State
 
-This repository solves the problem of.
+This repository solves the problem of a vending machine having to perform multple actions based on its state.
 
 ## The Problem:
 
@@ -21,4 +21,4 @@ Based.
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (State)](https://refactoring.guru/design-patterns/state)
