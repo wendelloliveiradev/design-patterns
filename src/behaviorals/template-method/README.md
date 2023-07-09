@@ -21,4 +21,4 @@ Based.
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Template Method)](https://refactoring.guru/design-patterns/template-method)
