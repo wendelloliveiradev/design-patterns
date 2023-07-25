@@ -1,6 +1,6 @@
 # Smart Home Controller Device
 
-This repository solves a problem of encapsulating action calls (operations), into objects, so they can be managed as part of the code, making easier to manipulating actions, for example, queueing operations, delay and undo/redo them.
+This repository solves the problem of encapsulating action calls (operations), into objects, so they can be managed as part of the code, making easier to manipulating actions, for example, queueing operations, delay and undo/redo them.
 
 ## The Problem:
 

@@ -1,4 +1,4 @@
-# Character Attack Strategy 
+# Multiple Online Courses Platform 
 
 This repository solves the problem of.
 
@@ -14,11 +14,17 @@ Based.
 
 ## Pros:
  
- ✅ Pro number 1.
+ ✅ You can let clients override only certain parts of a large algorithm, making them less affected by changes that happen to other parts of the algorithm.
+
+ ✅ You can pull the duplicate code into a superclass.
 
 ## Cons:
 
- ❌ Con number 1.
+ ❌ Some clients may be limited by the provided skeleton of an algorithm.
+
+ ❌ You might violate the Liskov Substitution Principle by suppressing a default step implementation via a subclass.
+
+ ❌ Template methods tend to be harder to maintain the more steps they have.
 
 
 ### **Resource:**
