@@ -1,10 +1,10 @@
-# Character Attack Strategy 
+# Single Logging System Interface 
 
 This repository solves the problem of.
 
 ## The Problem:
 
-""
+"You are building a logging service for a large application that requires centralized logging of various events, such as errors, warnings, and informarion messages. The logging service needs to maintain a single instance throughout the lifetime of the application and provide a golbal access point for all components of the application to log events. The service should also ensure that only one instance of the logger is created, even if multiple components try to create it simultaneously. You need to implement a Singleton design pattern to ensure that the logging service is instantiated only once and provides a global access point for logging events."
 
 ## The Solution:
 
@@ -12,13 +12,23 @@ Based.
 
 ## Pros:
  
- ✅ Pro number 1.
+ ✅ You can be sure that a class has only a single instance.
+
+ ✅ You gain a global access point to that instance.
+
+ ✅ The singleton object is initialized only when it’s requested for the first time.
 
 ## Cons:
 
- ❌ Con number 1.
+ ❌ Violates the Single Responsibility Principle. The pattern solves two problems at the time.
+
+ ❌ The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
+
+ ❌ The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
+
+ ❌ It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton. Or just don’t write the tests. Or don’t use the Singleton pattern.
 
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Singleton)](https://refactoring.guru/design-patterns/singleton)
