@@ -1,6 +1,6 @@
 # Single Logging System Interface 
 
-This repository solves the problem of.
+This repository solves the problem of needing only one instace of a particular object, blocking the creation of another object from the same class.
 
 ## The Problem:
 
@@ -8,7 +8,7 @@ This repository solves the problem of.
 
 ## The Solution:
 
-Based.
+The solution to this problem is really easy to implement, we just need to make the constructor of our object private, the only way to intantiate the object is through a public function, that checks if the object is already instantiated, if true then we return the object saved in a private state in the same class, other ways we instantiate a new object.
 
 ## Pros:
  
