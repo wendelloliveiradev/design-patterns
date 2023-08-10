@@ -1,6 +1,6 @@
 # File Management System Proxy
 
-This repository solves the problem of.
+This repository solves the problem of needing to have extra control over the communication between a given client and service, like adding an auth system or storing results of the communication.
 
 ## The Problem:
 
@@ -10,23 +10,22 @@ The Virtual proxy acts as an intermediary between the client and the remote file
 
 ## The Solution:
 
-Based.
+We want to introduce a proxy object between the file management system and the client that make the request, then inside the same proxy object we are gonna to add the control to other intermediare service such as authentication and caching.
 
 ## Pros:
  
- ✅ You can control the service object without clients knowing about it.
+ ✅ Really simple implementation with lots of applicability.
 
- ✅ You can manage the lifecycle of the service object when clients don’t care about it.
+ ✅ Make possible to control and costumize the communication between a stablished client/service communication.
 
- ✅ The proxy works even if the service object isn’t ready or is not available.
+ ✅ Can be used as a cached system service.
 
- ✅ Open/Closed Principle. You can introduce new proxies without changing the service or clients.
+ ✅ Follows the open closed principle guidelines.
 
 ## Cons:
 
- ❌ The code may become more complicated since you need to introduce a lot of new classes.
+ ❌ It can increase code complexity.
 
- ❌ The response from the service might get delayed.
 
 
 ### **Resource:**
