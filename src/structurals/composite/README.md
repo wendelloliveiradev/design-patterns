@@ -12,13 +12,15 @@ Based.
 
 ## Pros:
  
- ✅ Pro number 1.
+ ✅ You can work with complex tree structures more conveniently: use polymorphism and recursion to your advantage.
+
+  ✅ Open/Closed Principle. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
 
 ## Cons:
 
- ❌ Con number 1.
+ ❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
 
 
 ### **Resource:**
 
- 🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
+ 🔗 [Refactoring Guru (Composite)](https://refactoring.guru/design-patterns/composite)
