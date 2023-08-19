@@ -1,6 +1,6 @@
 # Hierarchical Structure For A File System Application 
 
-This repository solves the problem of .
+This
 
 ## The Problem:
 
