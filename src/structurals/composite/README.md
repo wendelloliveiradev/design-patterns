@@ -1,6 +1,6 @@
 # Hierarchical Structure For A File System Application 
 
-This repository solves the problem of 
+This repository solves the problem of having to build a tree-like structure for a hierachical file system system, the tree structure of objects allows multiple benefits to be handle in an efficient way. For that we use the Composite design pattern.
 
 ## The Problem:
 
