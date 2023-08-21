@@ -1,24 +1,24 @@
 # Hierarchical Structure For A File System Application 
 
-This repository solves the problem of having to build a tree-like structure for a hierachical file system system, the tree structure of objects allows multiple benefits to be handle in an efficient way. For that we use the Composite design pattern.
+This repository solves the problem of having to deal with multiple objects as they are a single structure, so we can uniform the manipulation of those objects, this allows us to automate the iteration process for example, it also makes possible to nest multiples objects recursively, among other operation that is enabled because of this tree-like structure that we are going to achieve with this pattern. And for achieving it, we use the Composite design pattern.
 
 ## The Problem:
 
-"You are building a file system applicattion that needs to represent files and directories in a hierarchical structure. The application should allow users to perform commom file system operations, such as creating, deleting, moving, and copying files and directories. The application should also support operations that can be applied to both individual files and entire directories, such as calculating the total size of a directory and displaying the contents of a directory. You need to implement a Composite design pattern to represent files and directories as a tree like structure, and allow for uniform treatment of both individual files and directories as components of the file system."
+"You are building a file system applicattion that needs to represent files and directories in a hierarchical structure. The application should allow users to perform commom file system operations, such as creating, deleting, moving, and copying files and directories. The application should also support operations that can be applied to both individual files and entire directories, such as calculating the total size of a directory and displaying the contents of a directory. You need to implement a Composite design pattern to represent files and directories as a tree-like structure, and allow for uniform treatment of both individual files and directories as components of the file system."
 
 ## The Solution:
 
-Based.
+We just need to implement a common interface for the directories and files, then we can implement the concrete classes for one of those, just remeber to add a state to hold the children (files) for each directory, then we instantiate the root and add the needed repositories to the system. The interface might declare the common methods for both directory and files, like deleting, copying, etc.
 
 ## Pros:
  
- ✅ You can work with complex tree structures more conveniently: use polymorphism and recursion to your advantage.
+  ✅ It makes easier to recursively iterate over multiple objects.
 
-  ✅ Open/Closed Principle. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
+  ✅ Follows the Open Closed Principle guidelines.
 
 ## Cons:
 
- ❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
+  ❌ May be difficult to implement in an already existent system.
 
 
 ### **Resource:**
