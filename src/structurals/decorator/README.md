@@ -26,6 +26,6 @@ We just need to implement an abstract class, that extends the common interface o
  
  ❌ It’s hard to implement a decorator in such a way that its behavior doesn’t depend on the order in the decorators stack.
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Decorator)](https://refactoring.guru/design-patterns/decorator)
