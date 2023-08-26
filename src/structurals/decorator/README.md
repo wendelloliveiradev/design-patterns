@@ -8,7 +8,7 @@ This repository solves the problem of needing to add or remove layers of behavio
 
 ## The Solution:
 
-We just need to implement an abstract class, that extends the common interface of coffee, because we want our decorator to implement this abstract class, then our client just deals with the last layer of decorator.
+We just need to implement an abstract class, that extends the common interface of coffee, because we want our decorator to implement this abstract class, and we want the decorator concrete implementation to be able to inject the past decorator inside a wrapper coffe decorator, then our client just deals with the last layer of the decorator.
 
 ## Pros:
  
