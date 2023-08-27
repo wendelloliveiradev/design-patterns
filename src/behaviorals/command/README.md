@@ -27,6 +27,6 @@ We need three main components to solve this problem with the Command design patt
  ❌ May greatly increase the code complexity given the implemantation of a new layer of objects.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Command)](https://refactoring.guru/design-patterns/command)
