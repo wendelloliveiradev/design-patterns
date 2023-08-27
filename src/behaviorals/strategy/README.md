@@ -1,6 +1,6 @@
 # Character Attack Strategy 
 
-This repository solves a problem of multiples similar action code inside a single class with strategies.
+This repository solves the problem of having to change the algorithmn used in runtime, without filling the code with conditionals.
 
 ## The Problem:
 
@@ -31,6 +31,6 @@ Based on the context `Character`. We created an interface that provide a contrac
  ❌ In functional programming languages may be used anonymous function for a similar result with easier implementation.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Strategy)](https://refactoring.guru/design-patterns/strategy)
