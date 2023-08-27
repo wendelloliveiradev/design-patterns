@@ -1,6 +1,6 @@
 # File Management System Proxy
 
-This repository solves the problem of needing to have extra control over the communication between a given client and service, like adding an auth system or storing results of the communication.
+This repository solves the problem of needing to add an extra control layer over the communication between a given client and service, like adding an auth system or storing results of the communication between two services.
 
 ## The Problem:
 
@@ -28,6 +28,6 @@ We want to introduce a proxy object between the file management system and the c
 
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Proxy)](https://refactoring.guru/design-patterns/proxy)
