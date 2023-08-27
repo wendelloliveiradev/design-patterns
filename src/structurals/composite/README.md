@@ -21,6 +21,6 @@ We just need to implement a common interface for the directories and files, then
   ❌ May be difficult to implement in an already existent system.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Composite)](https://refactoring.guru/design-patterns/composite)
