@@ -25,6 +25,6 @@ We want to isolate the creation of new characters and allow for futher improveme
  ❌ May greatly increase the code complexity while creating all the necessary classes.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Factory Method)](https://refactoring.guru/design-patterns/factory-method)
