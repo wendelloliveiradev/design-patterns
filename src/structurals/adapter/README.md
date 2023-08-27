@@ -27,6 +27,6 @@ We created an intermediate interface that inherites the interface known by the C
  ❌ May greatly increase the code complexity.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Adapter)](https://refactoring.guru/design-patterns/adapter)
