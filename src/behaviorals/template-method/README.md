@@ -1,6 +1,6 @@
 # Multiple Online Courses Platform 
 
-This repository solves the problem of having to replacate some code multiple times to change small parts, so it can suit different use cases that vary slightly from each other.
+This repository solves the problem of defining the sequence of steps the object need to run, so it can suit different use cases that vary slightly from each other, without having to duplicate the code every time.
 
 ## The Problem:
 
@@ -24,6 +24,6 @@ Template Mmethod is one of the easiest pattern to implement, we just need to cre
 
  ❌ You might violate the Liskov Substitution Principle.
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Template Method)](https://refactoring.guru/design-patterns/template-method)
