@@ -1,6 +1,6 @@
 # Vending Machine State
 
-This repository solves the problem of having to perform multple actions depending on the internal class state.
+This repository solves the problem of having to change the object bihaviors depending on the internal object state.
 
 ## The Problem:
 
