@@ -21,6 +21,6 @@ We need to implement a WeatherSubscriber interface for each subscriber so every 
  ❌ The notifications is sequential, may not feed the users in real time.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Observer)](https://refactoring.guru/design-patterns/observer)
