@@ -29,6 +29,6 @@ The solution to this problem is really easy to implement, we just need to make t
  ❌ It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton. Or just don’t write the tests. Or don’t use the Singleton pattern.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (Singleton)](https://refactoring.guru/design-patterns/singleton)
