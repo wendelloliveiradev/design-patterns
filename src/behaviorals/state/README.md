@@ -28,6 +28,6 @@ For this problem the solution implementation ends being quite simple, we just ne
  ❌ Not much useful for small number of states or changes.
 
 
-### **Resource:**
+### **Reference:**
 
  🔗 [Refactoring Guru (State)](https://refactoring.guru/design-patterns/state)
